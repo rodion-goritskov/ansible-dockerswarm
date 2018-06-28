@@ -43,7 +43,7 @@
 
 - name: Install the Docker Engine.
   package:
-    name: docker-engine
+    name: docker-ce
     state: present
 
 - name: Enable the Docker daemon as a service and start it.
